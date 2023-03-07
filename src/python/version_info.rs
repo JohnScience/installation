@@ -1,7 +1,7 @@
 /// The result of [sys.version_info()] call.
-/// 
+///
 /// Do not confuse with [pyo3::PythonVersionInfo].
-/// 
+///
 /// [sys.version_info()]: https://docs.python.org/3/library/sys.html#sys.version_info
 #[derive(Debug)]
 pub struct PythonVersionInfo {

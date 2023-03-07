@@ -7,6 +7,8 @@ pub enum Error {
     // Can be there more errors?
 }
 
+/// A newtype wrapper around [`std::process::Output`] to to implement
+/// parsing and so on.
 #[derive(Debug)]
 pub struct VersionOutput(pub std::process::Output);
 
